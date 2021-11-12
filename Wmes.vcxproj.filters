@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\framework">
+      <UniqueIdentifier>{b8e79d32-53ef-4a43-9ce7-71b95f0a3609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\TemporaryFolder">
+      <UniqueIdentifier>{36aa4b34-1bc9-4b8d-afd3-45b9d7fef8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\PlayerFile">
+      <UniqueIdentifier>{2aab6da7-c7fc-4e89-a0f2-f92c0219174c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MapFile">
+      <UniqueIdentifier>{3b5ee343-914f-4f58-9c7e-85b39794bdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemies">
+      <UniqueIdentifier>{f009478c-d004-45bc-8c60-b94ea2a9814d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{76508bf0-87ed-4fb0-ab23-c17a19df628a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\HUD">
+      <UniqueIdentifier>{4401f32d-702f-4444-8b38-2a843afe63fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="myDirect3D.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="keyloger.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="System_Timer.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="base_Sprite.cpp">
+      <Filter>ソース ファイル\TemporaryFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="base_Camera.cpp">
+      <Filter>ソース ファイル\TemporaryFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="GM.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="base_Animation.cpp">
+      <Filter>ソース ファイル\TemporaryFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="playerAction.cpp">
+      <Filter>ソース ファイル\PlayerFile</Filter>
+    </ClCompile>
+    <ClCompile Include="playerCollision.cpp">
+      <Filter>ソース ファイル\PlayerFile</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerData.cpp">
+      <Filter>ソース ファイル\PlayerFile</Filter>
+    </ClCompile>
+    <ClCompile Include="uiDisplay.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_Manager.cpp">
+      <Filter>ソース ファイル\MapFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\MapFile</Filter>
+    </ClCompile>
+    <ClCompile Include="base_MapBlock.cpp">
+      <Filter>ソース ファイル\MapFile</Filter>
+    </ClCompile>
+    <ClCompile Include="base_State.cpp">
+      <Filter>ソース ファイル\TemporaryFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyVH.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyStates.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="uiSerif.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AIComponent.cpp">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState.cpp">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveComponent.cpp">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="drawNumber.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="FairyClass.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCollision.cpp">
+      <Filter>ソース ファイル\MapFile</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FailureScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD_LineTime.cpp">
+      <Filter>ソース ファイル\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD_PlayerLife.cpp">
+      <Filter>ソース ファイル\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="playerEffect.cpp">
+      <Filter>ソース ファイル\PlayerFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="keyboard.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="myDirect3D.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="keyloger.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="debugPrintf.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="System_Timer.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="base_Sprite.h">
+      <Filter>ソース ファイル\TemporaryFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="base_Camera.h">
+      <Filter>ソース ファイル\TemporaryFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="GM.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="base_Animation.h">
+      <Filter>ソース ファイル\TemporaryFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="playerAction.h">
+      <Filter>ソース ファイル\PlayerFile</Filter>
+    </ClInclude>
+    <ClInclude Include="playerCollision.h">
+      <Filter>ソース ファイル\PlayerFile</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>ソース ファイル\PlayerFile</Filter>
+    </ClInclude>
+    <ClInclude Include="uiDisplay.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Map_Manager.h">
+      <Filter>ソース ファイル\MapFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ソース ファイル\MapFile</Filter>
+    </ClInclude>
+    <ClInclude Include="base_MapBlock.h">
+      <Filter>ソース ファイル\MapFile</Filter>
+    </ClInclude>
+    <ClInclude Include="base_State.h">
+      <Filter>ソース ファイル\TemporaryFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyVH.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyStates.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTool.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="uiSerif.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState.h">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveComponent.h">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="drawNumber.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="typeLine.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.h">
+      <Filter>ソース ファイル\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="FairyClass.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCollision.h">
+      <Filter>ソース ファイル\MapFile</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>ソース ファイル\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FailureScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD_LineTime.h">
+      <Filter>ソース ファイル\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD_PlayerLife.h">
+      <Filter>ソース ファイル\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="playerEffect.h">
+      <Filter>ソース ファイル\PlayerFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="MapConfig\Stage1_A.xml">
+      <Filter>リソース ファイル</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

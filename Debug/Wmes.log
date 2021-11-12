@@ -1,0 +1,91 @@
+﻿  AIComponent.cpp
+  AIState.cpp
+  base_Animation.cpp
+  base_Camera.cpp
+  base_MapBlock.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\base_mapblock.cpp(192): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\base_mapblock.cpp(353): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\base_mapblock.cpp(354): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+  base_Sprite.cpp
+  base_State.cpp
+  Button.cpp
+  collision.cpp
+  drawNumber.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\effect.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Effect.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\effect.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Enemy.cpp
+  Event.cpp
+  FairyClass.cpp
+  FairyStates.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\effect.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  FairyVH.cpp
+  Figure.cpp
+  FailureScene.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\failurescene.cpp(191): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\failurescene.cpp(190): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  GM.cpp
+  Heart.cpp
+  コードを生成中...
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\heart.cpp(456): warning C4715: 'WriteHeart': 値を返さないコントロール パスがあります。
+  コンパイル中...
+  HUD_LineTime.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\hud_linetime.cpp(204): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\hud_linetime.cpp(208): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\hud_linetime.cpp(214): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  HUD_PlayerLife.cpp
+  InputManager.cpp
+  keyboard.cpp
+  keyloger.cpp
+  Line.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\effect.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  loadingScene.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\loadingscene.cpp(53): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  Main.cpp
+  MapCollision.cpp
+  Map_Manager.cpp
+  mouse.cpp
+  MoveComponent.cpp
+  myDirect3D.cpp
+  playerAction.cpp
+  playerCollision.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\effect.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  PlayerData.cpp
+  ClearScene.cpp
+  playerEffect.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\playereffect.cpp(20): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'eff_st' の左辺を無視します。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\playereffect.cpp(126): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\playereffect.cpp(127): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\playereffect.cpp(130): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\playereffect.cpp(131): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\playereffect.cpp(136): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\playereffect.cpp(137): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\playereffect.cpp(143): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  SceneManager.cpp
+  Search.cpp
+  コードを生成中...
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\line.cpp(258): warning C4715: 'Line_CreateLineMap': 値を返さないコントロール パスがあります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\line.cpp(275): warning C4715: 'Line_CreateLineMap': 値を返さないコントロール パスがあります。
+  コンパイル中...
+  sound.cpp
+  SoundManager.cpp
+  sprite.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\sprite.cpp(11): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'PartData' の左辺を無視します。
+  Stage.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\stage.cpp(165): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\stage.cpp(166): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\stage.cpp(174): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\stage.cpp(180): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\stage.cpp(454): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  System_Timer.cpp
+  GameScene.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\effect.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\gamescene.cpp(98): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  texture.cpp
+  tinyxml2.cpp
+  TitleScene.cpp
+  uiDisplay.cpp
+c:\users\shoto\onedrive\デスクトップ\作品\mil\source\effect.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  uiSerif.cpp
+  コードを生成中...
+  Wmes.vcxproj -> C:\Users\shoto\OneDrive\デスクトップ\作品\MIL\source\Debug\Wmes.exe
